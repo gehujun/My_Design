@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Webtalk v2018.1 (64-bit)
+# SW Build 2188600 on Wed Apr  4 18:40:38 MDT 2018
+# IP Build 2185939 on Wed Apr  4 20:55:05 MDT 2018
+# Start of session at: Mon Dec 17 10:50:33 2018
+# Process ID: 2044
+# Current directory: C:/Users/lenovo/Desktop/my_design/soc_axi_func/run_vivado/mycpu_prj1/mycpu.sim/sim_1/behav/xsim
+# Command line: wbtcv.exe -mode batch -source C:/Users/lenovo/Desktop/my_design/soc_axi_func/run_vivado/mycpu_prj1/mycpu.sim/sim_1/behav/xsim/xsim.dir/tb_top_behav/webtalk/xsim_webtalk.tcl -notrace
+# Log file: C:/Users/lenovo/Desktop/my_design/soc_axi_func/run_vivado/mycpu_prj1/mycpu.sim/sim_1/behav/xsim/webtalk.log
+# Journal file: C:/Users/lenovo/Desktop/my_design/soc_axi_func/run_vivado/mycpu_prj1/mycpu.sim/sim_1/behav/xsim\webtalk.jou
+#-----------------------------------------------------------
+source C:/Users/lenovo/Desktop/my_design/soc_axi_func/run_vivado/mycpu_prj1/mycpu.sim/sim_1/behav/xsim/xsim.dir/tb_top_behav/webtalk/xsim_webtalk.tcl -notrace
+INFO: [Common 17-186] 'C:/Users/lenovo/Desktop/my_design/soc_axi_func/run_vivado/mycpu_prj1/mycpu.sim/sim_1/behav/xsim/xsim.dir/tb_top_behav/webtalk/usage_statistics_ext_xsim.xml' has been successfully sent to Xilinx on Mon Dec 17 10:50:37 2018. For additional details about this file, please refer to the WebTalk help file at C:/Xilinx/Vivado/2018.1/doc/webtalk_introduction.html.
+INFO: [Common 17-206] Exiting Webtalk at Mon Dec 17 10:50:37 2018...

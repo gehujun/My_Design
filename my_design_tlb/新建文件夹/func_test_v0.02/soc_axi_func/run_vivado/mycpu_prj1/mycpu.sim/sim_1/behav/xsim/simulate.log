@@ -1,0 +1,55 @@
+Vivado Simulator 2018.1
+Time resolution is 1 ps
+ Block Memory Generator module loading initial data...
+ Block Memory Generator data initialization complete.
+Block Memory Generator module tb_top.soc_lite.u_axi_ram.ram.inst.axi_mem_module.blk_mem_gen_v8_4_1_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+==============================================================
+Test begin!
+----[  10195 ns] Number 8'd01 Functional Test Point PASS!!!
+----[  17415 ns] Number 8'd02 Functional Test Point PASS!!!
+        [  22000 ns] Test is running, debug_wb_pc = 0xbfc009a8
+----[  24755 ns] Number 8'd03 Functional Test Point PASS!!!
+        [  32000 ns] Test is running, debug_wb_pc = 0x00000000
+----[  32095 ns] Number 8'd04 Functional Test Point PASS!!!
+----[  36195 ns] Number 8'd05 Functional Test Point PASS!!!
+        [  42000 ns] Test is running, debug_wb_pc = 0xbfc00ba0
+        [  52000 ns] Test is running, debug_wb_pc = 0xbfc00bb8
+        [  62000 ns] Test is running, debug_wb_pc = 0xbfc00bcc
+        [  72000 ns] Test is running, debug_wb_pc = 0xbfc00b78
+        [  82000 ns] Test is running, debug_wb_pc = 0xbfc00b90
+        [  92000 ns] Test is running, debug_wb_pc = 0xbfc00ba4
+        [ 102000 ns] Test is running, debug_wb_pc = 0xbfc00bb8
+        [ 112000 ns] Test is running, debug_wb_pc = 0xbfc00b68
+        [ 122000 ns] Test is running, debug_wb_pc = 0xbfc00b7c
+        [ 132000 ns] Test is running, debug_wb_pc = 0xbfc00bf8
+        [ 142000 ns] Test is running, debug_wb_pc = 0xbfc00d48
+----[ 143255 ns] Number 8'd06 Functional Test Point PASS!!!
+----[ 150235 ns] Number 8'd07 Functional Test Point PASS!!!
+        [ 152000 ns] Test is running, debug_wb_pc = 0xbfc00670
+        [ 162000 ns] Test is running, debug_wb_pc = 0xbfc00240
+        [ 172000 ns] Test is running, debug_wb_pc = 0xbfc0023c
+        [ 182000 ns] Test is running, debug_wb_pc = 0xbfc0023c
+        [ 192000 ns] Test is running, debug_wb_pc = 0xbfc00238
+        [ 202000 ns] Test is running, debug_wb_pc = 0xbfc00234
+        [ 212000 ns] Test is running, debug_wb_pc = 0xbfc00234
+        [ 222000 ns] Test is running, debug_wb_pc = 0xbfc00210
+        [ 232000 ns] Test is running, debug_wb_pc = 0xbfc0020c
+        [ 242000 ns] Test is running, debug_wb_pc = 0xbfc0020c
+        [ 252000 ns] Test is running, debug_wb_pc = 0xbfc00208
+        [ 262000 ns] Test is running, debug_wb_pc = 0xbfc00204
+        [ 272000 ns] Test is running, debug_wb_pc = 0xbfc00204
+        [ 282000 ns] Test is running, debug_wb_pc = 0xbfc00200
+        [ 292000 ns] Test is running, debug_wb_pc = 0x00000000
+        [ 302000 ns] Test is running, debug_wb_pc = 0x00000000
+        [ 312000 ns] Test is running, debug_wb_pc = 0x00000000
+        [ 322000 ns] Test is running, debug_wb_pc = 0x00000000
+        [ 332000 ns] Test is running, debug_wb_pc = 0xbfc00a38
+        [ 342000 ns] Test is running, debug_wb_pc = 0x00000000
+        [ 352000 ns] Test is running, debug_wb_pc = 0x00000000
+        [ 362000 ns] Test is running, debug_wb_pc = 0x00000000
+        [ 372000 ns] Test is running, debug_wb_pc = 0xbfc00278
+        [ 382000 ns] Test is running, debug_wb_pc = 0xbfc00274
+        [ 392000 ns] Test is running, debug_wb_pc = 0xbfc00274
+        [ 402000 ns] Test is running, debug_wb_pc = 0xbfc00270
+        [ 412000 ns] Test is running, debug_wb_pc = 0xbfc0026c
+        [ 422000 ns] Test is running, debug_wb_pc = 0xbfc0026c

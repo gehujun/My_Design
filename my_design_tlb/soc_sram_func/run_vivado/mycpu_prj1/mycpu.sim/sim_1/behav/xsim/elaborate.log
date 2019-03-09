@@ -1,0 +1,11 @@
+Vivado Simulator 2018.1
+Copyright 1986-1999, 2001-2017 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2018.1/bin/unwrapped/win64.o/xelab.exe -wto 8de8692e6f7648c084645fde77f29b66 --incr --debug typical --relax --mt 2 -L blk_mem_gen_v8_4_1 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot tb_top_behav xil_defaultlib.tb_top xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+ERROR: [VRFC 10-2063] Module <mycpu_top> not found while processing module instance <cpu> [C:/Users/lenovo/Desktop/my_design/soc_sram_func/rtl/soc_lite_top.v:121]
+ERROR: [VRFC 10-2063] Module <inst_ram> not found while processing module instance <inst_ram> [C:/Users/lenovo/Desktop/my_design/soc_sram_func/rtl/soc_lite_top.v:146]
+ERROR: [VRFC 10-2063] Module <bridge_1x2> not found while processing module instance <bridge_1x2> [C:/Users/lenovo/Desktop/my_design/soc_sram_func/rtl/soc_lite_top.v:156]
+ERROR: [VRFC 10-2063] Module <data_ram> not found while processing module instance <data_ram> [C:/Users/lenovo/Desktop/my_design/soc_sram_func/rtl/soc_lite_top.v:180]
+ERROR: [VRFC 10-2063] Module <confreg> not found while processing module instance <confreg> [C:/Users/lenovo/Desktop/my_design/soc_sram_func/rtl/soc_lite_top.v:191]
+ERROR: [XSIM 43-3322] Static elaboration of top level Verilog design unit(s) in library work failed.

@@ -1,0 +1,76 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/lenovo/Desktop/my_design/soc_axi_func/rtl/xilinx_ip/axi_ram/sim/axi_ram.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module axi_ram
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/lenovo/Desktop/my_design/soc_axi_func/rtl/xilinx_ip/axi_crossbar_1x2/sim/axi_crossbar_1x2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module axi_crossbar_1x2
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/lenovo/Desktop/my_design/soc_axi_func/rtl/xilinx_ip/clk_pll/clk_pll_clk_wiz.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module clk_pll_clk_wiz
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/lenovo/Desktop/my_design/soc_axi_func/rtl/xilinx_ip/clk_pll/clk_pll.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module clk_pll
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/lenovo/Desktop/my_design/soc_axi_func/rtl/myCPU/TLB.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module TLB
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/lenovo/Desktop/my_design/soc_axi_func/rtl/myCPU/adder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module adder
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/lenovo/Desktop/my_design/soc_axi_func/rtl/myCPU/alu.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module alu
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/lenovo/Desktop/my_design/soc_axi_func/rtl/myCPU/aludec.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module aludec
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/lenovo/Desktop/my_design/soc_axi_func/rtl/myCPU/axi_interface.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module axi_interface
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/lenovo/Desktop/my_design/soc_axi_func/rtl/ram_wrap/axi_wrap_ram.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module axi_wrap_ram
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/lenovo/Desktop/my_design/soc_axi_func/rtl/CONFREG/confreg.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module confreg
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/lenovo/Desktop/my_design/soc_axi_func/rtl/myCPU/controller.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module controller
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/lenovo/Desktop/my_design/soc_axi_func/rtl/myCPU/cp0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module cp0
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/lenovo/Desktop/my_design/soc_axi_func/rtl/myCPU/d_sram_port.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module d_sram_port
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/lenovo/Desktop/my_design/soc_axi_func/rtl/myCPU/datapath.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module datapath
+WARNING: [VRFC 10-1315] redeclaration of ansi port CP0_INDEX is not allowed [C:/Users/lenovo/Desktop/my_design/soc_axi_func/rtl/myCPU/datapath.v:164]
+INFO: [VRFC 10-2458] undeclared symbol timer_int_o, assumed default net type wire [C:/Users/lenovo/Desktop/my_design/soc_axi_func/rtl/myCPU/datapath.v:359]
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/lenovo/Desktop/my_design/soc_axi_func/rtl/myCPU/divider_Primary.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module divider_Primary
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/lenovo/Desktop/my_design/soc_axi_func/rtl/myCPU/eqcmp.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module eqcmp
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/lenovo/Desktop/my_design/soc_axi_func/rtl/myCPU/exception.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module exception
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/lenovo/Desktop/my_design/soc_axi_func/rtl/myCPU/flopenrc.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module flopenrc
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/lenovo/Desktop/my_design/soc_axi_func/rtl/myCPU/floprc.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module floprc
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/lenovo/Desktop/my_design/soc_axi_func/rtl/myCPU/hazard.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module hazard
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/lenovo/Desktop/my_design/soc_axi_func/rtl/myCPU/hilo_reg.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module hilo_reg
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/lenovo/Desktop/my_design/soc_axi_func/rtl/myCPU/inst_sram_port.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module inst_sram_port
+INFO: [VRFC 10-2458] undeclared symbol IF_inst_addr_err, assumed default net type wire [C:/Users/lenovo/Desktop/my_design/soc_axi_func/rtl/myCPU/inst_sram_port.v:112]
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/lenovo/Desktop/my_design/soc_axi_func/rtl/myCPU/instdec.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module instdec
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/lenovo/Desktop/my_design/soc_axi_func/rtl/myCPU/maindec.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module maindec
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/lenovo/Desktop/my_design/soc_axi_func/rtl/myCPU/memsel.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module memsel
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/lenovo/Desktop/my_design/soc_axi_func/rtl/myCPU/mips.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mycpu_top
+INFO: [VRFC 10-2458] undeclared symbol stallD, assumed default net type wire [C:/Users/lenovo/Desktop/my_design/soc_axi_func/rtl/myCPU/mips.v:227]
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/lenovo/Desktop/my_design/soc_axi_func/rtl/myCPU/mux2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mux2
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/lenovo/Desktop/my_design/soc_axi_func/rtl/myCPU/mux3.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mux3
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/lenovo/Desktop/my_design/soc_axi_func/rtl/myCPU/mux4.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mux4
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/lenovo/Desktop/my_design/soc_axi_func/rtl/myCPU/pc.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module pc
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/lenovo/Desktop/my_design/soc_axi_func/rtl/myCPU/regfile.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module regfile
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/lenovo/Desktop/my_design/soc_axi_func/rtl/myCPU/signext.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module signext
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/lenovo/Desktop/my_design/soc_axi_func/rtl/myCPU/sl2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module sl2
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/lenovo/Desktop/my_design/soc_axi_func/rtl/soc_axi_lite_top.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module soc_axi_lite_top
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/lenovo/Desktop/my_design/soc_axi_func/testbench/mycpu_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb_top

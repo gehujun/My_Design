@@ -1,0 +1,44 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  --include "../../../../../../rtl/myCPU" --include "../../../../../../../../../lab2/mycpu_verify/run_vivado/mycpu/mycpu.ip_user_files/ipstatic/hdl" --include "../../../../../../rtl/xilinx_ip/clk_pll" \
+"../../../../../../rtl/xilinx_ip/axi_ram/sim/axi_ram.v" \
+"../../../../../../rtl/xilinx_ip/axi_crossbar_1x2/sim/axi_crossbar_1x2.v" \
+"../../../../../../rtl/xilinx_ip/clk_pll/clk_pll_clk_wiz.v" \
+"../../../../../../rtl/xilinx_ip/clk_pll/clk_pll.v" \
+"../../../../../../rtl/myCPU/TLB.v" \
+"../../../../../../rtl/myCPU/adder.v" \
+"../../../../../../rtl/myCPU/alu.v" \
+"../../../../../../rtl/myCPU/aludec.v" \
+"../../../../../../rtl/myCPU/axi_interface.v" \
+"../../../../../../rtl/ram_wrap/axi_wrap_ram.v" \
+"../../../../../../rtl/CONFREG/confreg.v" \
+"../../../../../../rtl/myCPU/controller.v" \
+"../../../../../../rtl/myCPU/cp0.v" \
+"../../../../../../rtl/myCPU/d_sram_port.v" \
+"../../../../../../rtl/myCPU/datapath.v" \
+"../../../../../../rtl/myCPU/divider_Primary.v" \
+"../../../../../../rtl/myCPU/eqcmp.v" \
+"../../../../../../rtl/myCPU/exception.v" \
+"../../../../../../rtl/myCPU/flopenrc.v" \
+"../../../../../../rtl/myCPU/floprc.v" \
+"../../../../../../rtl/myCPU/hazard.v" \
+"../../../../../../rtl/myCPU/hilo_reg.v" \
+"../../../../../../rtl/myCPU/inst_sram_port.v" \
+"../../../../../../rtl/myCPU/instdec.v" \
+"../../../../../../rtl/myCPU/maindec.v" \
+"../../../../../../rtl/myCPU/memsel.v" \
+"../../../../../../rtl/myCPU/mips.v" \
+"../../../../../../rtl/myCPU/mux2.v" \
+"../../../../../../rtl/myCPU/mux3.v" \
+"../../../../../../rtl/myCPU/mux4.v" \
+"../../../../../../rtl/myCPU/pc.v" \
+"../../../../../../rtl/myCPU/regfile.v" \
+"../../../../../../rtl/myCPU/signext.v" \
+"../../../../../../rtl/myCPU/sl2.v" \
+"../../../../../../rtl/soc_axi_lite_top.v" \
+"../../../../../../testbench/mycpu_tb.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

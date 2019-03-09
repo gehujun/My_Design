@@ -1,0 +1,35 @@
+#-----------------------------------------------------------
+# Vivado v2018.1 (64-bit)
+# SW Build 2188600 on Wed Apr  4 18:40:38 MDT 2018
+# IP Build 2185939 on Wed Apr  4 20:55:05 MDT 2018
+# Start of session at: Thu Dec 20 19:29:46 2018
+# Process ID: 22768
+# Current directory: C:/Users/lenovo/Desktop/my_design/soc_sram_func/run_vivado/mycpu_prj1
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent23332 C:\Users\lenovo\Desktop\my_design\soc_sram_func\run_vivado\mycpu_prj1\mycpu.xpr
+# Log file: C:/Users/lenovo/Desktop/my_design/soc_sram_func/run_vivado/mycpu_prj1/vivado.log
+# Journal file: C:/Users/lenovo/Desktop/my_design/soc_sram_func/run_vivado/mycpu_prj1\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/lenovo/Desktop/my_design/soc_sram_func/run_vivado/mycpu_prj1/mycpu.xpr
+update_compile_order -fileset sources_1
+generate_target all [get_files C:/Users/lenovo/Desktop/my_design/soc_sram_func/rtl/xilinx_ip/data_ram/data_ram.xci]
+export_ip_user_files -of_objects [get_files C:/Users/lenovo/Desktop/my_design/soc_sram_func/rtl/xilinx_ip/data_ram/data_ram.xci] -no_script -sync -force -quiet
+export_simulation -of_objects [get_files C:/Users/lenovo/Desktop/my_design/soc_sram_func/rtl/xilinx_ip/data_ram/data_ram.xci] -directory C:/Users/lenovo/lab2/mycpu_verify/run_vivado/mycpu/mycpu.ip_user_files/sim_scripts -ip_user_files_dir C:/Users/lenovo/lab2/mycpu_verify/run_vivado/mycpu/mycpu.ip_user_files -ipstatic_source_dir C:/Users/lenovo/lab2/mycpu_verify/run_vivado/mycpu/mycpu.ip_user_files/ipstatic -lib_map_path [list {modelsim=D:/Modeltech_pe_edu_10.4a/xilinx_lib} {questa=C:/Users/lenovo/Desktop/my_design/soc_sram_func/run_vivado/mycpu_prj1/mycpu.cache/compile_simlib/questa} {riviera=C:/Users/lenovo/Desktop/my_design/soc_sram_func/run_vivado/mycpu_prj1/mycpu.cache/compile_simlib/riviera} {activehdl=C:/Users/lenovo/Desktop/my_design/soc_sram_func/run_vivado/mycpu_prj1/mycpu.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+generate_target all [get_files C:/Users/lenovo/Desktop/my_design/soc_sram_func/rtl/xilinx_ip/inst_ram/inst_ram.xci]
+export_ip_user_files -of_objects [get_files C:/Users/lenovo/Desktop/my_design/soc_sram_func/rtl/xilinx_ip/inst_ram/inst_ram.xci] -no_script -sync -force -quiet
+export_simulation -of_objects [get_files C:/Users/lenovo/Desktop/my_design/soc_sram_func/rtl/xilinx_ip/inst_ram/inst_ram.xci] -directory C:/Users/lenovo/lab2/mycpu_verify/run_vivado/mycpu/mycpu.ip_user_files/sim_scripts -ip_user_files_dir C:/Users/lenovo/lab2/mycpu_verify/run_vivado/mycpu/mycpu.ip_user_files -ipstatic_source_dir C:/Users/lenovo/lab2/mycpu_verify/run_vivado/mycpu/mycpu.ip_user_files/ipstatic -lib_map_path [list {modelsim=D:/Modeltech_pe_edu_10.4a/xilinx_lib} {questa=C:/Users/lenovo/Desktop/my_design/soc_sram_func/run_vivado/mycpu_prj1/mycpu.cache/compile_simlib/questa} {riviera=C:/Users/lenovo/Desktop/my_design/soc_sram_func/run_vivado/mycpu_prj1/mycpu.cache/compile_simlib/riviera} {activehdl=C:/Users/lenovo/Desktop/my_design/soc_sram_func/run_vivado/mycpu_prj1/mycpu.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+generate_target all [get_files C:/Users/lenovo/Desktop/my_design/soc_sram_func/rtl/xilinx_ip/clk_pll/clk_pll.xci]
+export_ip_user_files -of_objects [get_files C:/Users/lenovo/Desktop/my_design/soc_sram_func/rtl/xilinx_ip/clk_pll/clk_pll.xci] -no_script -sync -force -quiet
+export_simulation -of_objects [get_files C:/Users/lenovo/Desktop/my_design/soc_sram_func/rtl/xilinx_ip/clk_pll/clk_pll.xci] -directory C:/Users/lenovo/lab2/mycpu_verify/run_vivado/mycpu/mycpu.ip_user_files/sim_scripts -ip_user_files_dir C:/Users/lenovo/lab2/mycpu_verify/run_vivado/mycpu/mycpu.ip_user_files -ipstatic_source_dir C:/Users/lenovo/lab2/mycpu_verify/run_vivado/mycpu/mycpu.ip_user_files/ipstatic -lib_map_path [list {modelsim=D:/Modeltech_pe_edu_10.4a/xilinx_lib} {questa=C:/Users/lenovo/Desktop/my_design/soc_sram_func/run_vivado/mycpu_prj1/mycpu.cache/compile_simlib/questa} {riviera=C:/Users/lenovo/Desktop/my_design/soc_sram_func/run_vivado/mycpu_prj1/mycpu.cache/compile_simlib/riviera} {activehdl=C:/Users/lenovo/Desktop/my_design/soc_sram_func/run_vivado/mycpu_prj1/mycpu.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+launch_run {data_ram_synth_1 inst_ram_synth_1 clk_pll_synth_1}
+wait_on_run data_ram_synth_1
+
+wait_on_run data_ram_synth_1
+wait_on_run inst_ram_synth_1
+
+wait_on_run data_ram_synth_1
+wait_on_run inst_ram_synth_1
+wait_on_run clk_pll_synth_1
+
+launch_simulation
+launch_simulation

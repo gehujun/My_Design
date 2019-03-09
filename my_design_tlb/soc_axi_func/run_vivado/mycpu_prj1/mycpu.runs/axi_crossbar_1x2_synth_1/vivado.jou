@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2018.1 (64-bit)
+# SW Build 2188600 on Wed Apr  4 18:40:38 MDT 2018
+# IP Build 2185939 on Wed Apr  4 20:55:05 MDT 2018
+# Start of session at: Thu Dec 13 20:25:54 2018
+# Process ID: 12248
+# Current directory: E:/学习有关/nscscc文档/nscscc2018_release_v0.03/func_test_v0.02/soc_axi_func/run_vivado/mycpu_prj1/mycpu.runs/axi_crossbar_1x2_synth_1
+# Command line: vivado.exe -log axi_crossbar_1x2.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source axi_crossbar_1x2.tcl
+# Log file: E:/学习有关/nscscc文档/nscscc2018_release_v0.03/func_test_v0.02/soc_axi_func/run_vivado/mycpu_prj1/mycpu.runs/axi_crossbar_1x2_synth_1/axi_crossbar_1x2.vds
+# Journal file: E:/学习有关/nscscc文档/nscscc2018_release_v0.03/func_test_v0.02/soc_axi_func/run_vivado/mycpu_prj1/mycpu.runs/axi_crossbar_1x2_synth_1\vivado.jou
+#-----------------------------------------------------------
+source axi_crossbar_1x2.tcl -notrace

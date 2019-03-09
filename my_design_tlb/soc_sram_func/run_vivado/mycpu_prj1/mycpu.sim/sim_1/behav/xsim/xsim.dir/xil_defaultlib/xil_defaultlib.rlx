@@ -1,0 +1,13 @@
+0.6
+2018.1
+Apr  4 2018
+19:30:32
+C:/Users/lenovo/Desktop/my_design/soc_sram_func/rtl/BRIDGE/bridge_1x2.v,1505293216,verilog,,C:/Users/lenovo/Desktop/my_design/soc_sram_func/rtl/CONFREG/confreg.v,,bridge_1x2,,,../../../../../../rtl/xilinx_ip/clk_pll,,,,,
+C:/Users/lenovo/Desktop/my_design/soc_sram_func/rtl/CONFREG/confreg.v,1509072541,verilog,,C:/Users/lenovo/Desktop/my_design/soc_sram_func/rtl/soc_lite_top.v,,confreg,,,../../../../../../rtl/xilinx_ip/clk_pll,,,,,
+C:/Users/lenovo/Desktop/my_design/soc_sram_func/rtl/soc_lite_top.v,1530780372,verilog,,C:/Users/lenovo/Desktop/my_design/soc_sram_func/testbench/mycpu_tb.v,,soc_lite_top,,,../../../../../../rtl/xilinx_ip/clk_pll,,,,,
+C:/Users/lenovo/Desktop/my_design/soc_sram_func/rtl/xilinx_ip/clk_pll/clk_pll.v,1545305690,verilog,,C:/Users/lenovo/Desktop/my_design/soc_sram_func/rtl/BRIDGE/bridge_1x2.v,,clk_pll,,,../../../../../../rtl/xilinx_ip/clk_pll,,,,,
+C:/Users/lenovo/Desktop/my_design/soc_sram_func/rtl/xilinx_ip/clk_pll/clk_pll_clk_wiz.v,1545305690,verilog,,C:/Users/lenovo/Desktop/my_design/soc_sram_func/rtl/xilinx_ip/clk_pll/clk_pll.v,,clk_pll_clk_wiz,,,../../../../../../rtl/xilinx_ip/clk_pll,,,,,
+C:/Users/lenovo/Desktop/my_design/soc_sram_func/rtl/xilinx_ip/data_ram/sim/data_ram.v,1545305644,verilog,,C:/Users/lenovo/Desktop/my_design/soc_sram_func/rtl/xilinx_ip/inst_ram/sim/inst_ram.v,,data_ram,,,../../../../../../rtl/xilinx_ip/clk_pll,,,,,
+C:/Users/lenovo/Desktop/my_design/soc_sram_func/rtl/xilinx_ip/inst_ram/sim/inst_ram.v,1545305681,verilog,,C:/Users/lenovo/Desktop/my_design/soc_sram_func/rtl/xilinx_ip/clk_pll/clk_pll_clk_wiz.v,,inst_ram,,,../../../../../../rtl/xilinx_ip/clk_pll,,,,,
+C:/Users/lenovo/Desktop/my_design/soc_sram_func/run_vivado/mycpu_prj1/mycpu.sim/sim_1/behav/xsim/glbl.v,1522801934,verilog,,,,glbl,,,,,,,,
+C:/Users/lenovo/Desktop/my_design/soc_sram_func/testbench/mycpu_tb.v,1530778897,verilog,,,,tb_top,,,../../../../../../rtl/xilinx_ip/clk_pll,,,,,

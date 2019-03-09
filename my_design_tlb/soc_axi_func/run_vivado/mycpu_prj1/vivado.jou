@@ -1,0 +1,24 @@
+#-----------------------------------------------------------
+# Vivado v2018.1 (64-bit)
+# SW Build 2188600 on Wed Apr  4 18:40:38 MDT 2018
+# IP Build 2185939 on Wed Apr  4 20:55:05 MDT 2018
+# Start of session at: Mon Dec 17 13:45:11 2018
+# Process ID: 4164
+# Current directory: C:/Users/lenovo/Desktop/my_design/soc_axi_func/run_vivado/mycpu_prj1
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent17992 C:\Users\lenovo\Desktop\my_design\soc_axi_func\run_vivado\mycpu_prj1\mycpu.xpr
+# Log file: C:/Users/lenovo/Desktop/my_design/soc_axi_func/run_vivado/mycpu_prj1/vivado.log
+# Journal file: C:/Users/lenovo/Desktop/my_design/soc_axi_func/run_vivado/mycpu_prj1\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/lenovo/Desktop/my_design/soc_axi_func/run_vivado/mycpu_prj1/mycpu.xpr
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+add_files {C:/Users/lenovo/Desktop/my_design/realse0.03/func_test_v0.02/soc_axi_func/rtl/myCPU/flopenrc.v C:/Users/lenovo/Desktop/my_design/realse0.03/func_test_v0.02/soc_axi_func/rtl/myCPU/controller.v C:/Users/lenovo/Desktop/my_design/realse0.03/func_test_v0.02/soc_axi_func/rtl/myCPU/axi_interface.v C:/Users/lenovo/Desktop/my_design/realse0.03/func_test_v0.02/soc_axi_func/rtl/myCPU/aludec.v C:/Users/lenovo/Desktop/my_design/realse0.03/func_test_v0.02/soc_axi_func/rtl/myCPU/exception.v C:/Users/lenovo/Desktop/my_design/realse0.03/func_test_v0.02/soc_axi_func/rtl/myCPU/eqcmp.v C:/Users/lenovo/Desktop/my_design/realse0.03/func_test_v0.02/soc_axi_func/rtl/myCPU/d_cache.v C:/Users/lenovo/Desktop/my_design/realse0.03/func_test_v0.02/soc_axi_func/rtl/myCPU/pc.v C:/Users/lenovo/Desktop/my_design/realse0.03/func_test_v0.02/soc_axi_func/rtl/myCPU/mux4.v C:/Users/lenovo/Desktop/my_design/realse0.03/func_test_v0.02/soc_axi_func/rtl/myCPU/hazard.v C:/Users/lenovo/Desktop/my_design/realse0.03/func_test_v0.02/soc_axi_func/rtl/myCPU/mux3.v C:/Users/lenovo/Desktop/my_design/realse0.03/func_test_v0.02/soc_axi_func/rtl/myCPU/alu.v C:/Users/lenovo/Desktop/my_design/realse0.03/func_test_v0.02/soc_axi_func/rtl/myCPU/mux2.v C:/Users/lenovo/Desktop/my_design/realse0.03/func_test_v0.02/soc_axi_func/rtl/myCPU/defines.h C:/Users/lenovo/Desktop/my_design/realse0.03/func_test_v0.02/soc_axi_func/rtl/myCPU/memsel.v C:/Users/lenovo/Desktop/my_design/realse0.03/func_test_v0.02/soc_axi_func/rtl/myCPU/regfile.v C:/Users/lenovo/Desktop/my_design/realse0.03/func_test_v0.02/soc_axi_func/rtl/myCPU/cp0.v C:/Users/lenovo/Desktop/my_design/realse0.03/func_test_v0.02/soc_axi_func/rtl/myCPU/instdec.v C:/Users/lenovo/Desktop/my_design/realse0.03/func_test_v0.02/soc_axi_func/rtl/myCPU/i_cache.v C:/Users/lenovo/Desktop/my_design/realse0.03/func_test_v0.02/soc_axi_func/rtl/myCPU/adder.v C:/Users/lenovo/Desktop/my_design/realse0.03/func_test_v0.02/soc_axi_func/rtl/myCPU/divider_Primary.v C:/Users/lenovo/Desktop/my_design/realse0.03/func_test_v0.02/soc_axi_func/rtl/myCPU/hilo_reg.v C:/Users/lenovo/Desktop/my_design/realse0.03/func_test_v0.02/soc_axi_func/rtl/myCPU/sl2.v C:/Users/lenovo/Desktop/my_design/realse0.03/func_test_v0.02/soc_axi_func/rtl/myCPU/datapath.v C:/Users/lenovo/Desktop/my_design/realse0.03/func_test_v0.02/soc_axi_func/rtl/myCPU/floprc.v C:/Users/lenovo/Desktop/my_design/realse0.03/func_test_v0.02/soc_axi_func/rtl/myCPU/maindec.v C:/Users/lenovo/Desktop/my_design/realse0.03/func_test_v0.02/soc_axi_func/rtl/myCPU/mips.v C:/Users/lenovo/Desktop/my_design/realse0.03/func_testsave_wave_config {C:/Users/lenovo/Desktop/my_design/soc_axi_func/run_vivado/mycpu_prj1/tb_top_behav.wcfg}
+add_files -fileset sim_1 -norecurse C:/Users/lenovo/Desktop/my_design/soc_axi_func/run_vivado/mycpu_prj1/tb_top_behav.wcfg
+set_property xsim.view C:/Users/lenovo/Desktop/my_design/soc_axi_func/run_vivado/mycpu_prj1/tb_top_behav.wcfg [get_filesets sim_1]
+close_sim
+launch_simulation
+open_wave_config C:/Users/lenovo/Desktop/my_design/soc_axi_func/run_vivado/mycpu_prj1/tb_top_behav.wcfg
+source tb_top.tcl
+run all
+close_sim

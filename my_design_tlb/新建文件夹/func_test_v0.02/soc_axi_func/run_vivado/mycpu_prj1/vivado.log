@@ -1,0 +1,406 @@
+#-----------------------------------------------------------
+# Vivado v2018.1 (64-bit)
+# SW Build 2188600 on Wed Apr  4 18:40:38 MDT 2018
+# IP Build 2185939 on Wed Apr  4 20:55:05 MDT 2018
+# Start of session at: Sat Dec 15 00:27:31 2018
+# Process ID: 9088
+# Current directory: E:/学习有关/nscscc文档/nscscc2018_release_v0.03/func_test_v0.02/soc_axi_func/run_vivado/mycpu_prj1
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent5332 E:\学习有关\nscscc文档\nscscc2018_release_v0.03\func_test_v0.02\soc_axi_func\run_vivado\mycpu_prj1\mycpu.xpr
+# Log file: E:/学习有关/nscscc文档/nscscc2018_release_v0.03/func_test_v0.02/soc_axi_func/run_vivado/mycpu_prj1/vivado.log
+# Journal file: E:/学习有关/nscscc文档/nscscc2018_release_v0.03/func_test_v0.02/soc_axi_func/run_vivado/mycpu_prj1\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project E:/学习有关/nscscc文档/nscscc2018_release_v0.03/func_test_v0.02/soc_axi_func/run_vivado/mycpu_prj1/mycpu.xpr
+INFO: [ProjectBase 1-489] The host OS only allows 260 characters in a normal path. The project is stored in a path with more than 80 characters. If you experience issues with IP, Block Designs, or files not being found, please consider moving the project to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter.
+Current project path is 'E:/学习有关/nscscc文档/nscscc2018_release_v0.03/func_test_v0.02/soc_axi_func/run_vivado/mycpu_prj1'
+CRITICAL WARNING: [Project 1-19] Could not find the file 'c:/Users/Administrator/Desktop/tlb_func/obj/inst_ram.coe'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'c:/Users/Administrator/Desktop/obj_10/inst_ram.coe'.
+Scanning sources...
+Finished scanning sources
+WARNING: [filemgmt 56-3] IP Output Repository Path: Could not find the directory 'E:/nscscc2018/lab3/ucas_CDE_v0.2/mycpu_verify/run_vivado/mycpu_prj1/mycpu.cache/ip'.
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Xilinx/Vivado/2018.1/data/ip'.
+WARNING: [IP_Flow 19-3664] IP 'axi_crossbar_1x2' generated file not found 'e:/学习有关/nscscc文档/nscscc2018_release_v0.03/func_test_v0.02/soc_axi_func/rtl/xilinx_ip/axi_crossbar_1x2/axi_crossbar_1x2.dcp'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'axi_crossbar_1x2' generated file not found 'e:/学习有关/nscscc文档/nscscc2018_release_v0.03/func_test_v0.02/soc_axi_func/rtl/xilinx_ip/axi_crossbar_1x2/axi_crossbar_1x2_stub.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'axi_crossbar_1x2' generated file not found 'e:/学习有关/nscscc文档/nscscc2018_release_v0.03/func_test_v0.02/soc_axi_func/rtl/xilinx_ip/axi_crossbar_1x2/axi_crossbar_1x2_stub.vhdl'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'axi_crossbar_1x2' generated file not found 'e:/学习有关/nscscc文档/nscscc2018_release_v0.03/func_test_v0.02/soc_axi_func/rtl/xilinx_ip/axi_crossbar_1x2/axi_crossbar_1x2_sim_netlist.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'axi_crossbar_1x2' generated file not found 'e:/学习有关/nscscc文档/nscscc2018_release_v0.03/func_test_v0.02/soc_axi_func/rtl/xilinx_ip/axi_crossbar_1x2/axi_crossbar_1x2_sim_netlist.vhdl'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'axi_ram' generated file not found 'e:/学习有关/nscscc文档/nscscc2018_release_v0.03/func_test_v0.02/soc_axi_func/rtl/xilinx_ip/axi_ram/axi_ram.dcp'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'axi_ram' generated file not found 'e:/学习有关/nscscc文档/nscscc2018_release_v0.03/func_test_v0.02/soc_axi_func/rtl/xilinx_ip/axi_ram/axi_ram_stub.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'axi_ram' generated file not found 'e:/学习有关/nscscc文档/nscscc2018_release_v0.03/func_test_v0.02/soc_axi_func/rtl/xilinx_ip/axi_ram/axi_ram_stub.vhdl'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'axi_ram' generated file not found 'e:/学习有关/nscscc文档/nscscc2018_release_v0.03/func_test_v0.02/soc_axi_func/rtl/xilinx_ip/axi_ram/axi_ram_sim_netlist.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'axi_ram' generated file not found 'e:/学习有关/nscscc文档/nscscc2018_release_v0.03/func_test_v0.02/soc_axi_func/rtl/xilinx_ip/axi_ram/axi_ram_sim_netlist.vhdl'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'clk_pll' generated file not found 'e:/学习有关/nscscc文档/nscscc2018_release_v0.03/func_test_v0.02/soc_axi_func/rtl/xilinx_ip/clk_pll/clk_pll.dcp'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'clk_pll' generated file not found 'e:/学习有关/nscscc文档/nscscc2018_release_v0.03/func_test_v0.02/soc_axi_func/rtl/xilinx_ip/clk_pll/clk_pll_stub.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'clk_pll' generated file not found 'e:/学习有关/nscscc文档/nscscc2018_release_v0.03/func_test_v0.02/soc_axi_func/rtl/xilinx_ip/clk_pll/clk_pll_stub.vhdl'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'clk_pll' generated file not found 'e:/学习有关/nscscc文档/nscscc2018_release_v0.03/func_test_v0.02/soc_axi_func/rtl/xilinx_ip/clk_pll/clk_pll_sim_netlist.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'clk_pll' generated file not found 'e:/学习有关/nscscc文档/nscscc2018_release_v0.03/func_test_v0.02/soc_axi_func/rtl/xilinx_ip/clk_pll/clk_pll_sim_netlist.vhdl'. Please regenerate to continue.
+open_project: Time (s): cpu = 00:00:14 ; elapsed = 00:00:08 . Memory (MB): peak = 791.355 ; gain = 53.816
+update_compile_order -fileset sources_1
+generate_target Simulation [get_files E:/学习有关/nscscc文档/nscscc2018_release_v0.03/func_test_v0.02/soc_axi_func/rtl/xilinx_ip/axi_ram/axi_ram.xci]
+INFO: [IP_Flow 19-1686] Generating 'Simulation' target for IP 'axi_ram'...
+ERROR: [Ipptcl 7-519] NULL COE Data pointer: Unable to open the file 
+ERROR: [Common 17-39] 'ipgui::get_coe_val' failed due to earlier errors.
+CRITICAL WARNING: [IP_Flow 19-1747] Failed to deliver file 'd:/Xilinx/Vivado/2018.1/data/ip/xilinx/blk_mem_gen_v8_4/hdl/mem_init_file.xit': ERROR: [Common 17-39] 'ipgui::get_coe_val' failed due to earlier errors.
+
+ERROR: [IP_Flow 19-167] Failed to deliver one or more file(s).
+ERROR: [IP_Flow 19-3505] IP Generation error: Failed to generate IP 'axi_ram'. Failed to generate 'Vivado Verilog Simulation' outputs: 
+ERROR: [IP_Flow 19-98] Generation of the IP CORE failed.
+Failed to generate IP 'axi_ram'. Failed to generate 'Vivado Verilog Simulation' outputs: 
+export_ip_user_files -of_objects  [get_files c:/Users/Administrator/Desktop/obj_10/inst_ram.coe] -no_script -reset -force -quiet
+remove_files  c:/Users/Administrator/Desktop/obj_10/inst_ram.coe
+export_ip_user_files -of_objects  [get_files c:/Users/Administrator/Desktop/tlb_func/obj/inst_ram.coe] -no_script -reset -force -quiet
+remove_files  c:/Users/Administrator/Desktop/tlb_func/obj/inst_ram.coe
+generate_target all [get_files E:/学习有关/nscscc文档/nscscc2018_release_v0.03/func_test_v0.02/soc_axi_func/rtl/xilinx_ip/axi_ram/axi_ram.xci]
+INFO: [IP_Flow 19-1686] Generating 'Instantiation Template' target for IP 'axi_ram'...
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'axi_ram'...
+ERROR: [Ipptcl 7-519] NULL COE Data pointer: Unable to open the file 
+ERROR: [Common 17-39] 'ipgui::get_coe_val' failed due to earlier errors.
+CRITICAL WARNING: [IP_Flow 19-1747] Failed to deliver file 'd:/Xilinx/Vivado/2018.1/data/ip/xilinx/blk_mem_gen_v8_4/hdl/mem_init_file.xit': ERROR: [Common 17-39] 'ipgui::get_coe_val' failed due to earlier errors.
+
+ERROR: [IP_Flow 19-167] Failed to deliver one or more file(s).
+ERROR: [IP_Flow 19-3505] IP Generation error: Failed to generate IP 'axi_ram'. Failed to generate 'Vivado VHDL Synthesis' outputs: 
+ERROR: [IP_Flow 19-98] Generation of the IP CORE failed.
+Failed to generate IP 'axi_ram'. Failed to generate 'Vivado VHDL Synthesis' outputs: 
+export_ip_user_files -of_objects  [get_files E:/学习有关/nscscc文档/nscscc2018_release_v0.03/func_test_v0.02/soft/func/obj/inst_ram.coe] -no_script -reset -force -quiet
+remove_files  E:/学习有关/nscscc文档/nscscc2018_release_v0.03/func_test_v0.02/soft/func/obj/inst_ram.coe
+INFO: [Device 21-403] Loading part xc7a200tfbg676-2
+WARNING: [IP_Flow 19-4067] Ignoring invalid widget type specified checkbox.Providing a default widget
+WARNING: [IP_Flow 19-4067] Ignoring invalid widget type specified checkbox.Providing a default widget
+set_property -dict [list CONFIG.Coe_File {C:/Users/Administrator/Desktop/obj_10/inst_ram.coe}] [get_ips axi_ram]
+generate_target all [get_files E:/学习有关/nscscc文档/nscscc2018_release_v0.03/func_test_v0.02/soc_axi_func/rtl/xilinx_ip/axi_ram/axi_ram.xci]
+INFO: [IP_Flow 19-1686] Generating 'Instantiation Template' target for IP 'axi_ram'...
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'axi_ram'...
+INFO: [IP_Flow 19-1686] Generating 'Simulation' target for IP 'axi_ram'...
+INFO: [IP_Flow 19-1686] Generating 'Miscellaneous' target for IP 'axi_ram'...
+INFO: [IP_Flow 19-1686] Generating 'Change Log' target for IP 'axi_ram'...
+export_ip_user_files -of_objects [get_files E:/学习有关/nscscc文档/nscscc2018_release_v0.03/func_test_v0.02/soc_axi_func/rtl/xilinx_ip/axi_ram/axi_ram.xci] -no_script -sync -force -quiet
+export_simulation -of_objects [get_files E:/学习有关/nscscc文档/nscscc2018_release_v0.03/func_test_v0.02/soc_axi_func/rtl/xilinx_ip/axi_ram/axi_ram.xci] -directory E:/学习有关/nscscc文档/lab2/mycpu_verify/run_vivado/mycpu/mycpu.ip_user_files/sim_scripts -ip_user_files_dir E:/学习有关/nscscc文档/lab2/mycpu_verify/run_vivado/mycpu/mycpu.ip_user_files -ipstatic_source_dir E:/学习有关/nscscc文档/lab2/mycpu_verify/run_vivado/mycpu/mycpu.ip_user_files/ipstatic -lib_map_path [list {modelsim=D:/Modeltech_pe_edu_10.4a/xilinx_lib} {questa=E:/学习有关/nscscc文档/nscscc2018_release_v0.03/func_test_v0.02/soc_axi_func/run_vivado/mycpu_prj1/mycpu.cache/compile_simlib/questa} {riviera=E:/学习有关/nscscc文档/nscscc2018_release_v0.03/func_test_v0.02/soc_axi_func/run_vivado/mycpu_prj1/mycpu.cache/compile_simlib/riviera} {activehdl=E:/学习有关/nscscc文档/nscscc2018_release_v0.03/func_test_v0.02/soc_axi_func/run_vivado/mycpu_prj1/mycpu.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+launch_simulation
+INFO: [Vivado 12-5698] Checking validity of IPs in the design for the 'XSim' simulator...
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'E:/学习有关/nscscc文档/nscscc2018_release_v0.03/func_test_v0.02/soc_axi_func/run_vivado/mycpu_prj1/mycpu.sim/sim_1/behav/xsim'
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-7] Finding pre-compiled libraries...
+INFO: [USF-XSim-11] File 'D:/Xilinx/Vivado/2018.1/data/xsim/ip/xsim_ip.ini' copied to run dir:'E:/学习有关/nscscc文档/nscscc2018_release_v0.03/func_test_v0.02/soc_axi_func/run_vivado/mycpu_prj1/mycpu.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-54] Inspecting design source files for 'tb_top' in fileset 'sim_1'...
+INFO: [SIM-utils-43] Exported 'E:/学习有关/nscscc文档/nscscc2018_release_v0.03/func_test_v0.02/soc_axi_func/run_vivado/mycpu_prj1/mycpu.sim/sim_1/behav/xsim/inst_ram.coe'
+INFO: [SIM-utils-43] Exported 'E:/学习有关/nscscc文档/nscscc2018_release_v0.03/func_test_v0.02/soc_axi_func/run_vivado/mycpu_prj1/mycpu.sim/sim_1/behav/xsim/axi_ram.mif'
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'E:/学习有关/nscscc文档/nscscc2018_release_v0.03/func_test_v0.02/soc_axi_func/run_vivado/mycpu_prj1/mycpu.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj tb_top_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/学习有关/nscscc文档/nscscc2018_release_v0.03/func_test_v0.02/soc_axi_func/rtl/xilinx_ip/axi_ram/sim/axi_ram.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module axi_ram
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/学习有关/nscscc文档/nscscc2018_release_v0.03/func_test_v0.02/soc_axi_func/rtl/xilinx_ip/axi_crossbar_1x2/sim/axi_crossbar_1x2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module axi_crossbar_1x2
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/学习有关/nscscc文档/nscscc2018_release_v0.03/func_test_v0.02/soc_axi_func/rtl/xilinx_ip/clk_pll/clk_pll_clk_wiz.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module clk_pll_clk_wiz
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/学习有关/nscscc文档/nscscc2018_release_v0.03/func_test_v0.02/soc_axi_func/rtl/xilinx_ip/clk_pll/clk_pll.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module clk_pll
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/学习有关/nscscc文档/nscscc2018_release_v0.03/func_test_v0.02/soc_axi_func/rtl/myCPU/TLB.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module TLB
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/学习有关/nscscc文档/nscscc2018_release_v0.03/func_test_v0.02/soc_axi_func/rtl/myCPU/adder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module adder
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/学习有关/nscscc文档/nscscc2018_release_v0.03/func_test_v0.02/soc_axi_func/rtl/myCPU/alu.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module alu
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/学习有关/nscscc文档/nscscc2018_release_v0.03/func_test_v0.02/soc_axi_func/rtl/myCPU/aludec.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module aludec
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/学习有关/nscscc文档/nscscc2018_release_v0.03/func_test_v0.02/soc_axi_func/rtl/myCPU/axi_interface.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module axi_interface
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/学习有关/nscscc文档/nscscc2018_release_v0.03/func_test_v0.02/soc_axi_func/rtl/ram_wrap/axi_wrap_ram.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module axi_wrap_ram
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/学习有关/nscscc文档/nscscc2018_release_v0.03/func_test_v0.02/soc_axi_func/rtl/CONFREG/confreg.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module confreg
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/学习有关/nscscc文档/nscscc2018_release_v0.03/func_test_v0.02/soc_axi_func/rtl/myCPU/controller.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module controller
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/学习有关/nscscc文档/nscscc2018_release_v0.03/func_test_v0.02/soc_axi_func/rtl/myCPU/cp0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module cp0
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/学习有关/nscscc文档/nscscc2018_release_v0.03/func_test_v0.02/soc_axi_func/rtl/myCPU/d_sram_port.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module d_sram_port
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/学习有关/nscscc文档/nscscc2018_release_v0.03/func_test_v0.02/soc_axi_func/rtl/myCPU/datapath.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module datapath
+WARNING: [VRFC 10-1315] redeclaration of ansi port CP0_INDEX is not allowed [E:/学习有关/nscscc文档/nscscc2018_release_v0.03/func_test_v0.02/soc_axi_func/rtl/myCPU/datapath.v:164]
+INFO: [VRFC 10-2458] undeclared symbol timer_int_o, assumed default net type wire [E:/学习有关/nscscc文档/nscscc2018_release_v0.03/func_test_v0.02/soc_axi_func/rtl/myCPU/datapath.v:359]
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/学习有关/nscscc文档/nscscc2018_release_v0.03/func_test_v0.02/soc_axi_func/rtl/myCPU/divider_Primary.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module divider_Primary
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/学习有关/nscscc文档/nscscc2018_release_v0.03/func_test_v0.02/soc_axi_func/rtl/myCPU/eqcmp.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module eqcmp
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/学习有关/nscscc文档/nscscc2018_release_v0.03/func_test_v0.02/soc_axi_func/rtl/myCPU/exception.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module exception
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/学习有关/nscscc文档/nscscc2018_release_v0.03/func_test_v0.02/soc_axi_func/rtl/myCPU/flopenrc.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module flopenrc
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/学习有关/nscscc文档/nscscc2018_release_v0.03/func_test_v0.02/soc_axi_func/rtl/myCPU/floprc.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module floprc
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/学习有关/nscscc文档/nscscc2018_release_v0.03/func_test_v0.02/soc_axi_func/rtl/myCPU/hazard.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module hazard
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/学习有关/nscscc文档/nscscc2018_release_v0.03/func_test_v0.02/soc_axi_func/rtl/myCPU/hilo_reg.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module hilo_reg
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/学习有关/nscscc文档/nscscc2018_release_v0.03/func_test_v0.02/soc_axi_func/rtl/myCPU/inst_sram_port.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module inst_sram_port
+INFO: [VRFC 10-2458] undeclared symbol IF_inst_addr_err, assumed default net type wire [E:/学习有关/nscscc文档/nscscc2018_release_v0.03/func_test_v0.02/soc_axi_func/rtl/myCPU/inst_sram_port.v:112]
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/学习有关/nscscc文档/nscscc2018_release_v0.03/func_test_v0.02/soc_axi_func/rtl/myCPU/instdec.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module instdec
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/学习有关/nscscc文档/nscscc2018_release_v0.03/func_test_v0.02/soc_axi_func/rtl/myCPU/maindec.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module maindec
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/学习有关/nscscc文档/nscscc2018_release_v0.03/func_test_v0.02/soc_axi_func/rtl/myCPU/memsel.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module memsel
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/学习有关/nscscc文档/nscscc2018_release_v0.03/func_test_v0.02/soc_axi_func/rtl/myCPU/mips.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mycpu_top
+INFO: [VRFC 10-2458] undeclared symbol stallD, assumed default net type wire [E:/学习有关/nscscc文档/nscscc2018_release_v0.03/func_test_v0.02/soc_axi_func/rtl/myCPU/mips.v:227]
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/学习有关/nscscc文档/nscscc2018_release_v0.03/func_test_v0.02/soc_axi_func/rtl/myCPU/mux2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mux2
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/学习有关/nscscc文档/nscscc2018_release_v0.03/func_test_v0.02/soc_axi_func/rtl/myCPU/mux3.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mux3
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/学习有关/nscscc文档/nscscc2018_release_v0.03/func_test_v0.02/soc_axi_func/rtl/myCPU/mux4.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mux4
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/学习有关/nscscc文档/nscscc2018_release_v0.03/func_test_v0.02/soc_axi_func/rtl/myCPU/pc.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module pc
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/学习有关/nscscc文档/nscscc2018_release_v0.03/func_test_v0.02/soc_axi_func/rtl/myCPU/regfile.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module regfile
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/学习有关/nscscc文档/nscscc2018_release_v0.03/func_test_v0.02/soc_axi_func/rtl/myCPU/signext.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module signext
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/学习有关/nscscc文档/nscscc2018_release_v0.03/func_test_v0.02/soc_axi_func/rtl/myCPU/sl2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module sl2
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/学习有关/nscscc文档/nscscc2018_release_v0.03/func_test_v0.02/soc_axi_func/rtl/soc_axi_lite_top.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module soc_axi_lite_top
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/学习有关/nscscc文档/nscscc2018_release_v0.03/func_test_v0.02/soc_axi_func/testbench/mycpu_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb_top
+"xvhdl --incr --relax -prj tb_top_vhdl.prj"
+run_program: Time (s): cpu = 00:00:02 ; elapsed = 00:00:07 . Memory (MB): peak = 1106.238 ; gain = 0.000
+INFO: [USF-XSim-69] 'compile' step finished in '7' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'E:/学习有关/nscscc文档/nscscc2018_release_v0.03/func_test_v0.02/soc_axi_func/run_vivado/mycpu_prj1/mycpu.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.1
+Copyright 1986-1999, 2001-2017 Xilinx, Inc. All Rights Reserved.
+Running: D:/Xilinx/Vivado/2018.1/bin/unwrapped/win64.o/xelab.exe -wto 8de8692e6f7648c084645fde77f29b66 --incr --debug typical --relax --mt 2 -L blk_mem_gen_v8_4_1 -L xil_defaultlib -L generic_baseblocks_v2_1_0 -L axi_infrastructure_v1_1_0 -L axi_register_slice_v2_1_16 -L fifo_generator_v13_2_2 -L axi_data_fifo_v2_1_15 -L axi_crossbar_v2_1_17 -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot tb_top_behav xil_defaultlib.tb_top xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+WARNING: [VRFC 10-278] actual bit length 8 differs from formal bit length 4 for port awlen [E:/学习有关/nscscc文档/nscscc2018_release_v0.03/func_test_v0.02/soc_axi_func/rtl/soc_axi_lite_top.v:238]
+WARNING: [VRFC 10-278] actual bit length 4 differs from formal bit length 8 for port awlen [E:/学习有关/nscscc文档/nscscc2018_release_v0.03/func_test_v0.02/soc_axi_func/rtl/myCPU/mips.v:509]
+WARNING: [VRFC 10-278] actual bit length 4 differs from formal bit length 8 for port arlen [E:/学习有关/nscscc文档/nscscc2018_release_v0.03/func_test_v0.02/soc_axi_func/rtl/soc_axi_lite_top.v:410]
+WARNING: [VRFC 10-278] actual bit length 4 differs from formal bit length 8 for port awlen [E:/学习有关/nscscc文档/nscscc2018_release_v0.03/func_test_v0.02/soc_axi_func/rtl/soc_axi_lite_top.v:426]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module unisims_ver.IBUF
+Compiling module unisims_ver.PLLE2_ADV(CLKFBOUT_MULT=9,CLKIN1...
+Compiling module unisims_ver.BUFG
+Compiling module xil_defaultlib.clk_pll_clk_wiz
+Compiling module xil_defaultlib.clk_pll
+Compiling module xil_defaultlib.maindec
+Compiling module xil_defaultlib.aludec
+Compiling module xil_defaultlib.flopenrc(WIDTH=9)
+Compiling module xil_defaultlib.flopenrc(WIDTH=7)
+Compiling module xil_defaultlib.flopenrc(WIDTH=2)
+Compiling module xil_defaultlib.controller
+Compiling module xil_defaultlib.hazard
+Compiling module xil_defaultlib.regfile
+Compiling module xil_defaultlib.hilo_reg
+Compiling module xil_defaultlib.mux2(WIDTH=32)
+Compiling module xil_defaultlib.pc
+Compiling module xil_defaultlib.adder
+Compiling module xil_defaultlib.flopenrc(WIDTH=32)
+Compiling module xil_defaultlib.flopenrc
+Compiling module xil_defaultlib.flopenrc(WIDTH=1)
+Compiling module xil_defaultlib.flopenrc(WIDTH=5)
+Compiling module xil_defaultlib.signext
+Compiling module xil_defaultlib.sl2
+Compiling module xil_defaultlib.instdec
+Compiling module xil_defaultlib.mux4(WIDTH=32)
+Compiling module xil_defaultlib.eqcmp
+Compiling module xil_defaultlib.flopenrc(WIDTH=25)
+Compiling module xil_defaultlib.flopenrc(WIDTH=4)
+Compiling module xil_defaultlib.flopenrc(WIDTH=6)
+Compiling module xil_defaultlib.flopenrc(WIDTH=64)
+Compiling module xil_defaultlib.mux3(WIDTH=32)
+Compiling module xil_defaultlib.alu
+Compiling module xil_defaultlib.mux2(WIDTH=5)
+Compiling module xil_defaultlib.divider_Primary
+Compiling module xil_defaultlib.memsel
+Compiling module xil_defaultlib.exception
+Compiling module xil_defaultlib.cp0
+Compiling module xil_defaultlib.floprc(WIDTH=32)
+Compiling module xil_defaultlib.floprc(WIDTH=5)
+Compiling module xil_defaultlib.floprc(WIDTH=64)
+Compiling module xil_defaultlib.floprc(WIDTH=2)
+Compiling module xil_defaultlib.datapath
+Compiling module xil_defaultlib.inst_sram_port
+Compiling module xil_defaultlib.d_sram_port
+Compiling module xil_defaultlib.TLB
+Compiling module xil_defaultlib.axi_interface
+Compiling module xil_defaultlib.mycpu_top
+Compiling module generic_baseblocks_v2_1_0.generic_baseblocks_v2_1_0_carry_...
+Compiling module generic_baseblocks_v2_1_0.generic_baseblocks_v2_1_0_compar...
+Compiling module generic_baseblocks_v2_1_0.generic_baseblocks_v2_1_0_compar...
+Compiling module generic_baseblocks_v2_1_0.generic_baseblocks_v2_1_0_compar...
+Compiling module axi_crossbar_v2_1_17.axi_crossbar_v2_1_17_addr_decode...
+Compiling module generic_baseblocks_v2_1_0.generic_baseblocks_v2_1_0_mux_en...
+Compiling module unisims_ver.SRLC32E_default
+Compiling module axi_data_fifo_v2_1_15.axi_data_fifo_v2_1_15_ndeep_srl(...
+Compiling module axi_data_fifo_v2_1_15.axi_data_fifo_v2_1_15_axic_srl_f...
+Compiling module axi_crossbar_v2_1_17.axi_crossbar_v2_1_17_si_transact...
+Compiling module generic_baseblocks_v2_1_0.generic_baseblocks_v2_1_0_mux_en...
+Compiling module axi_crossbar_v2_1_17.axi_crossbar_v2_1_17_si_transact...
+Compiling module axi_crossbar_v2_1_17.axi_crossbar_v2_1_17_splitter
+Compiling module axi_data_fifo_v2_1_15.axi_data_fifo_v2_1_15_ndeep_srl(...
+Compiling module axi_data_fifo_v2_1_15.axi_data_fifo_v2_1_15_axic_reg_s...
+Compiling module axi_crossbar_v2_1_17.axi_crossbar_v2_1_17_wdata_route...
+Compiling module axi_crossbar_v2_1_17.axi_crossbar_v2_1_17_wdata_mux(C...
+Compiling module axi_data_fifo_v2_1_15.axi_data_fifo_v2_1_15_axic_srl_f...
+Compiling module axi_infrastructure_v1_1_0.axi_infrastructure_v1_1_0_axi2ve...
+Compiling module axi_register_slice_v2_1_16.axi_register_slice_v2_1_16_axic_...
+Compiling module axi_register_slice_v2_1_16.axi_register_slice_v2_1_16_axic_...
+Compiling module axi_register_slice_v2_1_16.axi_register_slice_v2_1_16_axic_...
+Compiling module axi_register_slice_v2_1_16.axi_register_slice_v2_1_16_axic_...
+Compiling module axi_infrastructure_v1_1_0.axi_infrastructure_v1_1_0_vector...
+Compiling module axi_register_slice_v2_1_16.axi_register_slice_v2_1_16_axi_r...
+Compiling module axi_crossbar_v2_1_17.axi_crossbar_v2_1_17_wdata_mux(C...
+Compiling module axi_data_fifo_v2_1_15.axi_data_fifo_v2_1_15_ndeep_srl(...
+Compiling module axi_data_fifo_v2_1_15.axi_data_fifo_v2_1_15_axic_srl_f...
+Compiling module axi_crossbar_v2_1_17.axi_crossbar_v2_1_17_addr_arbite...
+Compiling module axi_crossbar_v2_1_17.axi_crossbar_v2_1_17_decerr_slav...
+Compiling module axi_crossbar_v2_1_17.axi_crossbar_v2_1_17_crossbar(C_...
+Compiling module axi_crossbar_v2_1_17.axi_crossbar_v2_1_17_axi_crossba...
+Compiling module xil_defaultlib.axi_crossbar_1x2
+Compiling module blk_mem_gen_v8_4_1.beh_vlog_ff_clr_v8_4(INIT=1'b0)
+Compiling module blk_mem_gen_v8_4_1.beh_vlog_ff_pre_v8_4(INIT=1'b1)
+Compiling module blk_mem_gen_v8_4_1.STATE_LOGIC_v8_4(INIT=64'b010101...
+Compiling module blk_mem_gen_v8_4_1.STATE_LOGIC_v8_4(INIT=64'b101111...
+Compiling module blk_mem_gen_v8_4_1.STATE_LOGIC_v8_4(INIT=64'b101010...
+Compiling module blk_mem_gen_v8_4_1.STATE_LOGIC_v8_4(INIT=64'b010101...
+Compiling module blk_mem_gen_v8_4_1.STATE_LOGIC_v8_4(INIT=64'b010001...
+Compiling module blk_mem_gen_v8_4_1.STATE_LOGIC_v8_4(INIT=64'b010001...
+Compiling module blk_mem_gen_v8_4_1.STATE_LOGIC_v8_4(INIT=64'b011010...
+Compiling module blk_mem_gen_v8_4_1.STATE_LOGIC_v8_4(INIT=64'b111111...
+Compiling module blk_mem_gen_v8_4_1.STATE_LOGIC_v8_4(INIT=64'b011000...
+Compiling module blk_mem_gen_v8_4_1.STATE_LOGIC_v8_4(INIT=64'b011111...
+Compiling module blk_mem_gen_v8_4_1.STATE_LOGIC_v8_4(INIT=64'b0111)
+Compiling module blk_mem_gen_v8_4_1.STATE_LOGIC_v8_4(INIT=64'b111110...
+Compiling module blk_mem_gen_v8_4_1.STATE_LOGIC_v8_4(INIT=64'b01000)
+Compiling module blk_mem_gen_v8_4_1.STATE_LOGIC_v8_4(INIT=64'b100010...
+Compiling module blk_mem_gen_v8_4_1.write_netlist_v8_4(C_AXI_TYPE=1)
+Compiling module blk_mem_gen_v8_4_1.blk_mem_axi_write_wrapper_beh_v8...
+Compiling module blk_mem_gen_v8_4_1.beh_vlog_ff_ce_clr_v8_4(INIT=1'b...
+Compiling module blk_mem_gen_v8_4_1.STATE_LOGIC_v8_4(INIT=64'b01011)
+Compiling module blk_mem_gen_v8_4_1.STATE_LOGIC_v8_4(INIT=64'b0100)
+Compiling module blk_mem_gen_v8_4_1.STATE_LOGIC_v8_4(INIT=64'b111011...
+Compiling module blk_mem_gen_v8_4_1.STATE_LOGIC_v8_4(INIT=64'b010001...
+Compiling module blk_mem_gen_v8_4_1.STATE_LOGIC_v8_4(INIT=64'b010000...
+Compiling module blk_mem_gen_v8_4_1.STATE_LOGIC_v8_4(INIT=64'b011111...
+Compiling module blk_mem_gen_v8_4_1.STATE_LOGIC_v8_4(INIT=64'b01)
+Compiling module blk_mem_gen_v8_4_1.STATE_LOGIC_v8_4(INIT=64'b010000...
+Compiling module blk_mem_gen_v8_4_1.STATE_LOGIC_v8_4(INIT=64'b010001...
+Compiling module blk_mem_gen_v8_4_1.STATE_LOGIC_v8_4(INIT=64'b011101...
+Compiling module blk_mem_gen_v8_4_1.STATE_LOGIC_v8_4(INIT=64'b111111...
+Compiling module blk_mem_gen_v8_4_1.STATE_LOGIC_v8_4(INIT=64'b010101...
+Compiling module blk_mem_gen_v8_4_1.STATE_LOGIC_v8_4(INIT=64'b111100...
+Compiling module blk_mem_gen_v8_4_1.beh_vlog_muxf7_v8_4
+Compiling module blk_mem_gen_v8_4_1.STATE_LOGIC_v8_4(INIT=64'b010101...
+Compiling module blk_mem_gen_v8_4_1.STATE_LOGIC_v8_4(INIT=64'b011100...
+Compiling module blk_mem_gen_v8_4_1.STATE_LOGIC_v8_4(INIT=64'b011111...
+Compiling module blk_mem_gen_v8_4_1.STATE_LOGIC_v8_4(INIT=64'b010001...
+Compiling module blk_mem_gen_v8_4_1.STATE_LOGIC_v8_4(INIT=64'b010001...
+Compiling module blk_mem_gen_v8_4_1.STATE_LOGIC_v8_4(INIT=64'b011100...
+Compiling module blk_mem_gen_v8_4_1.read_netlist_v8_4(C_ADDRB_WIDTH=...
+Compiling module blk_mem_gen_v8_4_1.blk_mem_axi_read_wrapper_beh_v8_...
+Compiling module blk_mem_gen_v8_4_1.blk_mem_gen_v8_4_1_output_stage(...
+Compiling module blk_mem_gen_v8_4_1.blk_mem_gen_v8_4_1_output_stage(...
+Compiling module blk_mem_gen_v8_4_1.blk_mem_gen_v8_4_1_softecc_outpu...
+Compiling module blk_mem_gen_v8_4_1.blk_mem_gen_v8_4_1_mem_module(C_...
+Compiling module blk_mem_gen_v8_4_1.blk_mem_gen_v8_4_1(C_FAMILY="art...
+Compiling module xil_defaultlib.axi_ram
+Compiling module xil_defaultlib.axi_wrap_ram
+Compiling module xil_defaultlib.confreg(SIMULATION=1'b1)
+Compiling module xil_defaultlib.soc_axi_lite_top(SIMULATION=1'b1...
+Compiling module xil_defaultlib.tb_top
+WARNING: [XSIM 43-3373] "E:/学习有关/nscscc文档/nscscc2018_release_v0.03/func_test_v0.02/soc_axi_func/testbench/mycpu_tb.v" Line 130. System function $fscanf is used as system task. This system function should have a LHS e.g. x=$fscanf().
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot tb_top_behav
+run_program: Time (s): cpu = 00:00:01 ; elapsed = 00:00:19 . Memory (MB): peak = 1106.238 ; gain = 0.000
+INFO: [USF-XSim-69] 'elaborate' step finished in '19' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'E:/学习有关/nscscc文档/nscscc2018_release_v0.03/func_test_v0.02/soc_axi_func/run_vivado/mycpu_prj1/mycpu.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "tb_top_behav -key {Behavioral:sim_1:Functional:tb_top} -tclbatch {tb_top.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2018.1
+Time resolution is 1 ps
+source tb_top.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# log_wave -r /
+# run 1000ns
+ Block Memory Generator module loading initial data...
+ Block Memory Generator data initialization complete.
+Block Memory Generator module tb_top.soc_lite.u_axi_ram.ram.inst.axi_mem_module.blk_mem_gen_v8_4_1_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+xsim: Time (s): cpu = 00:00:10 ; elapsed = 00:00:08 . Memory (MB): peak = 1157.848 ; gain = 51.609
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'tb_top_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:15 ; elapsed = 00:00:36 . Memory (MB): peak = 1157.848 ; gain = 51.609
+run all
+==============================================================
+Test begin!
+----[  10195 ns] Number 8'd01 Functional Test Point PASS!!!
+----[  17415 ns] Number 8'd02 Functional Test Point PASS!!!
+        [  22000 ns] Test is running, debug_wb_pc = 0xbfc009a8
+----[  24755 ns] Number 8'd03 Functional Test Point PASS!!!
+        [  32000 ns] Test is running, debug_wb_pc = 0x00000000
+----[  32095 ns] Number 8'd04 Functional Test Point PASS!!!
+----[  36195 ns] Number 8'd05 Functional Test Point PASS!!!
+        [  42000 ns] Test is running, debug_wb_pc = 0xbfc00ba0
+        [  52000 ns] Test is running, debug_wb_pc = 0xbfc00bb8
+        [  62000 ns] Test is running, debug_wb_pc = 0xbfc00bcc
+        [  72000 ns] Test is running, debug_wb_pc = 0xbfc00b78
+        [  82000 ns] Test is running, debug_wb_pc = 0xbfc00b90
+        [  92000 ns] Test is running, debug_wb_pc = 0xbfc00ba4
+        [ 102000 ns] Test is running, debug_wb_pc = 0xbfc00bb8
+        [ 112000 ns] Test is running, debug_wb_pc = 0xbfc00b68
+        [ 122000 ns] Test is running, debug_wb_pc = 0xbfc00b7c
+        [ 132000 ns] Test is running, debug_wb_pc = 0xbfc00bf8
+        [ 142000 ns] Test is running, debug_wb_pc = 0xbfc00d48
+----[ 143255 ns] Number 8'd06 Functional Test Point PASS!!!
+----[ 150235 ns] Number 8'd07 Functional Test Point PASS!!!
+        [ 152000 ns] Test is running, debug_wb_pc = 0xbfc00670
+        [ 162000 ns] Test is running, debug_wb_pc = 0xbfc00240
+        [ 172000 ns] Test is running, debug_wb_pc = 0xbfc0023c
+        [ 182000 ns] Test is running, debug_wb_pc = 0xbfc0023c
+        [ 192000 ns] Test is running, debug_wb_pc = 0xbfc00238
+        [ 202000 ns] Test is running, debug_wb_pc = 0xbfc00234
+        [ 212000 ns] Test is running, debug_wb_pc = 0xbfc00234
+        [ 222000 ns] Test is running, debug_wb_pc = 0xbfc00210
+        [ 232000 ns] Test is running, debug_wb_pc = 0xbfc0020c
+        [ 242000 ns] Test is running, debug_wb_pc = 0xbfc0020c
+        [ 252000 ns] Test is running, debug_wb_pc = 0xbfc00208
+        [ 262000 ns] Test is running, debug_wb_pc = 0xbfc00204
+        [ 272000 ns] Test is running, debug_wb_pc = 0xbfc00204
+        [ 282000 ns] Test is running, debug_wb_pc = 0xbfc00200
+        [ 292000 ns] Test is running, debug_wb_pc = 0x00000000
+        [ 302000 ns] Test is running, debug_wb_pc = 0x00000000
+        [ 312000 ns] Test is running, debug_wb_pc = 0x00000000
+        [ 322000 ns] Test is running, debug_wb_pc = 0x00000000
+        [ 332000 ns] Test is running, debug_wb_pc = 0xbfc00a38
+        [ 342000 ns] Test is running, debug_wb_pc = 0x00000000
+        [ 352000 ns] Test is running, debug_wb_pc = 0x00000000
+        [ 362000 ns] Test is running, debug_wb_pc = 0x00000000
+        [ 372000 ns] Test is running, debug_wb_pc = 0xbfc00278
+        [ 382000 ns] Test is running, debug_wb_pc = 0xbfc00274
+        [ 392000 ns] Test is running, debug_wb_pc = 0xbfc00274
+        [ 402000 ns] Test is running, debug_wb_pc = 0xbfc00270
+        [ 412000 ns] Test is running, debug_wb_pc = 0xbfc0026c
+        [ 422000 ns] Test is running, debug_wb_pc = 0xbfc0026c
+run: Time (s): cpu = 00:00:08 ; elapsed = 00:00:15 . Memory (MB): peak = 1162.336 ; gain = 0.727
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+exit
+INFO: [Common 17-206] Exiting Vivado at Sat Dec 15 11:49:55 2018...

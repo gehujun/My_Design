@@ -1,0 +1,30 @@
+#-----------------------------------------------------------
+# Vivado v2018.1 (64-bit)
+# SW Build 2188600 on Wed Apr  4 18:40:38 MDT 2018
+# IP Build 2185939 on Wed Apr  4 20:55:05 MDT 2018
+# Start of session at: Sat Dec 15 00:27:31 2018
+# Process ID: 9088
+# Current directory: E:/学习有关/nscscc文档/nscscc2018_release_v0.03/func_test_v0.02/soc_axi_func/run_vivado/mycpu_prj1
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent5332 E:\学习有关\nscscc文档\nscscc2018_release_v0.03\func_test_v0.02\soc_axi_func\run_vivado\mycpu_prj1\mycpu.xpr
+# Log file: E:/学习有关/nscscc文档/nscscc2018_release_v0.03/func_test_v0.02/soc_axi_func/run_vivado/mycpu_prj1/vivado.log
+# Journal file: E:/学习有关/nscscc文档/nscscc2018_release_v0.03/func_test_v0.02/soc_axi_func/run_vivado/mycpu_prj1\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project E:/学习有关/nscscc文档/nscscc2018_release_v0.03/func_test_v0.02/soc_axi_func/run_vivado/mycpu_prj1/mycpu.xpr
+update_compile_order -fileset sources_1
+generate_target Simulation [get_files E:/学习有关/nscscc文档/nscscc2018_release_v0.03/func_test_v0.02/soc_axi_func/rtl/xilinx_ip/axi_ram/axi_ram.xci]
+export_ip_user_files -of_objects  [get_files c:/Users/Administrator/Desktop/obj_10/inst_ram.coe] -no_script -reset -force -quiet
+remove_files  c:/Users/Administrator/Desktop/obj_10/inst_ram.coe
+export_ip_user_files -of_objects  [get_files c:/Users/Administrator/Desktop/tlb_func/obj/inst_ram.coe] -no_script -reset -force -quiet
+remove_files  c:/Users/Administrator/Desktop/tlb_func/obj/inst_ram.coe
+generate_target all [get_files E:/学习有关/nscscc文档/nscscc2018_release_v0.03/func_test_v0.02/soc_axi_func/rtl/xilinx_ip/axi_ram/axi_ram.xci]
+export_ip_user_files -of_objects  [get_files E:/学习有关/nscscc文档/nscscc2018_release_v0.03/func_test_v0.02/soft/func/obj/inst_ram.coe] -no_script -reset -force -quiet
+remove_files  E:/学习有关/nscscc文档/nscscc2018_release_v0.03/func_test_v0.02/soft/func/obj/inst_ram.coe
+set_property -dict [list CONFIG.Coe_File {C:/Users/Administrator/Desktop/obj_10/inst_ram.coe}] [get_ips axi_ram]
+generate_target all [get_files E:/学习有关/nscscc文档/nscscc2018_release_v0.03/func_test_v0.02/soc_axi_func/rtl/xilinx_ip/axi_ram/axi_ram.xci]
+export_ip_user_files -of_objects [get_files E:/学习有关/nscscc文档/nscscc2018_release_v0.03/func_test_v0.02/soc_axi_func/rtl/xilinx_ip/axi_ram/axi_ram.xci] -no_script -sync -force -quiet
+export_simulation -of_objects [get_files E:/学习有关/nscscc文档/nscscc2018_release_v0.03/func_test_v0.02/soc_axi_func/rtl/xilinx_ip/axi_ram/axi_ram.xci] -directory E:/学习有关/nscscc文档/lab2/mycpu_verify/run_vivado/mycpu/mycpu.ip_user_files/sim_scripts -ip_user_files_dir E:/学习有关/nscscc文档/lab2/mycpu_verify/run_vivado/mycpu/mycpu.ip_user_files -ipstatic_source_dir E:/学习有关/nscscc文档/lab2/mycpu_verify/run_vivado/mycpu/mycpu.ip_user_files/ipstatic -lib_map_path [list {modelsim=D:/Modeltech_pe_edu_10.4a/xilinx_lib} {questa=E:/学习有关/nscscc文档/nscscc2018_release_v0.03/func_test_v0.02/soc_axi_func/run_vivado/mycpu_prj1/mycpu.cache/compile_simlib/questa} {riviera=E:/学习有关/nscscc文档/nscscc2018_release_v0.03/func_test_v0.02/soc_axi_func/run_vivado/mycpu_prj1/mycpu.cache/compile_simlib/riviera} {activehdl=E:/学习有关/nscscc文档/nscscc2018_release_v0.03/func_test_v0.02/soc_axi_func/run_vivado/mycpu_prj1/mycpu.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+launch_simulation
+source tb_top.tcl
+run all
+close_sim
